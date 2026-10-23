@@ -36,6 +36,6 @@ const syncGenreTable = async () => {
   }
 };
 
-// dbCheckConnection();
-// dropGenreTable();
-// syncGenreTable();
+dbCheckConnection();
+dropGenreTable();
+syncGenreTable();
