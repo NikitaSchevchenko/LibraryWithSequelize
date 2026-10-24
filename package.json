@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "migrate": "sequelize-cli db:migrate",
+    "migrateUndo": "sequelize-cli db:migrate:undo",
+    "dbCreate": "sequelize-cli db:create",
+    "dbDrop": "sequelize-cli db:drop"
   },
   "keywords": [],
   "author": "",
